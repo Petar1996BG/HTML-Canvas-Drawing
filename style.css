@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body article {
+    text-align:center
+}
+
+canvas {
+    border: 3px solid blue;
+    width: 560px;
+    height:360px
+}
+
+article button {
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: lightgreen;
+    font-size: 20px;
+    color: white;
+    cursor: pointer
+}
+
+#btnClear:hover {
+    background-color:red;
+}
+
+#btnSave:hover {
+    background-color:green;
+}
+
+#btnDownload:hover {
+    background-color:blue
+}
